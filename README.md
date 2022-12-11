@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+# TwicPics Components + React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a demonstration project of [TwicPics Components](https://github.com/TwicPics/components/blob/main/documentation/react.md) using [React.js](https://reactjs.org/).
 
-## Available Scripts
+## How to build
 
-In the project directory, you can run:
+### Using npm
 
-### `npm start`
+```bash
+# install dependencies
+$ npm install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# serve with hot reload at localhost:3000
+$ npm run dev
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# build for production and launch server
+$ npm run build
+$ npm run preview
+```
 
-### `npm test`
+### Using yarn
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+# install dependencies
+$ yarn install
 
-### `npm run build`
+# serve with hot reload at localhost:3000
+$ yarn dev
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# build for production and launch server
+$ yarn build
+$ yarn preview
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Overview
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<div id='what-is-twicpics'/>
 
-### `npm run eject`
+### What is [TwicPics](https://www.twicpics.com/?utm_source=github&utm_medium=organic&utm_campaign=components)?
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[TwicPics](https://www.twicpics.com/?utm_source=github&utm_medium=organic&utm_campaign=components) is a **Responsive Image Service Solution** (SaaS) that enables **on-demand responsive image generation**.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+With [TwicPics](https://www.twicpics.com/?utm_source=github&utm_medium=organic&utm_campaign=components), developers only deal with high-resolution versions of their media while end-users receive **optimized, perfectly sized, device-adapted** versions **delivered from a server close to them**.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+[TwicPics](https://www.twicpics.com/?utm_source=github&utm_medium=organic&utm_campaign=components) acts as an **image proxy**. It requests your master image, be it on your own web server, cloud storage or DAM, then generates a **device-adapted** version with **best-in-class compression**, delivered directly to the end-user from the **closest delivery point** available.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<div id='what-is-twicpics-components'/>
 
-## Learn More
+### What is TwicPics Components?
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+TwicPics Components is a **collection of web components** that make it dead easy to unleash the power of [TwicPics](https://www.twicpics.com/?utm_source=github&utm_medium=organic&utm_campaign=components) in your own projects.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Basically, TwicPics components replace `img` and `video` tags. They greatly and transparently optimize your CLS by providing LQIP (Low-Quality Image Placeholders) and Lazy Loading out of the box.
 
-### Code Splitting
+Simply replace this:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```html
+<img src="https://assets.twicpics.com/examples/football.jpg" />
+```
 
-### Analyzing the Bundle Size
+With this:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```html
+<TwicImg src="https://assets.twicpics.com/examples/football.jpg" />
+```
 
-### Making a Progressive Web App
+Thanks to the open source [TwicPics](https://www.twicpics.com/?utm_source=github&utm_medium=organic&utm_campaign=components) Components, delivering responsive images in your [React.js](https://reactjs.org/) projects has never been easier.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## TwicPics configuration
 
-### Advanced Configuration
+<div id='create-an-account'/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Requirement
 
-### Deployment
+The only requirement is to have a TwicPics account.
+If you don't already have one, you can easily [create your own TwicPics account for free](https://account.twicpics.com/signup).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Configuring `@twicpics/components`
 
-### `npm run build` fails to minify
+TwicPics components for `React.js` comes as an `ES module`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+An example of configuration is already set within `index.js` file.
+
+All you have to do is set your configuration options to the desired values ([see documentation](https://github.com/TwicPics/components/blob/main/documentation/react.md#setup-options)).
+
+## Examples
+
+All the examples proposed in this project are located in the `lib` directory.
+Feel free to inspire yourself from these different use cases to unleash the power of [TwicPics](https://www.twicpics.com/) in your own projects.
+
+## Questions and feedback
+
+Fell free to submit an [issue](https://github.com/TwicPics/components/issues) or to ask us anything by dropping an email at [support@twic.pics](mailto:support@twic.pics).
+
+## Licence
+
+[![License][license-image]][license-url]
+
+[license-image]: https://img.shields.io/npm/l/@twicpics/components.svg?style=flat-square
+[license-url]: https://raw.githubusercontent.com/twicpics/components/master/LICENSE

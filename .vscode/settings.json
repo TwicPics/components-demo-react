@@ -1,0 +1,9 @@
+{
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "cSpell.words": [
+    "CODESANDBOX"
+  ]
+}
