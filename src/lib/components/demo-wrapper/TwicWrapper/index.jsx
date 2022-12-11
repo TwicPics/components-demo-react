@@ -7,7 +7,7 @@ import './index.scss';
 export const TwicWrapper = ({ gitHubUrl, children }) => {
   const logoSrc = `https://assets.twicpics.com/demo/@twicpics-components/logos/react.png`;
   const redirect = `https://www.twicpics.com/docs/components/react?utm_source=github&utm_medium=organic&utm_campaign=components`;
-  const GITHUB = `https://github.com/TwicPics/components-demo-svelte3/blob/main`;
+  const GITHUB = `https://github.com/TwicPics/components-demo-react`;
   const CODESANDBOX = `https://stackblitz.com/edit/github-wpprt7?file=`;
   const _codeSandBoxUrl = `${CODESANDBOX}${gitHubUrl || 'README.md'}`;
   const _gitHubUrl = gitHubUrl ? `${GITHUB}/blob/main/${gitHubUrl}` : GITHUB;
