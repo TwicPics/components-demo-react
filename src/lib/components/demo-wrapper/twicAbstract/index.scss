@@ -6,12 +6,12 @@
     margin-bottom: 1rem;
   }
 
-  & :global(p) {
+  & p {
     margin-bottom: 0.5rem;
     text-align: justify;
   }
 
-  & :global(ul) {
+  & ul {
     display: flex;
     flex-direction: column;
     gap: 6px;

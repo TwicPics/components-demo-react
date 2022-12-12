@@ -1,0 +1,31 @@
+#twic-grid-and-zoom {
+  ul {
+    display: grid;
+    gap: 1rem;
+    list-style: none;
+    position: relative;
+    width: 100%;
+  }
+
+  li {
+    &:hover {
+      & img.twic-done {
+        transform: scale(1.2) !important;
+      }
+    }
+  }
+}
+
+#twic-grid-and-zoom ul {
+  @media screen and (min-width: 425px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media screen and (min-width: 768px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  @media screen and (min-width: 1440px) {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}

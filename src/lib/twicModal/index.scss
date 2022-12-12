@@ -1,0 +1,27 @@
+#twic-modal-container {
+  figure.poster-wrapper {
+    position: relative;
+
+    figcaption {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 12px;
+      font-size: 1.3em;
+      color: #fff;
+      background: rgba(0, 0, 0, 0.5);
+      opacity: 0;
+      transition: opacity 0.3s;
+      cursor: pointer;
+    }
+
+    figcaption:hover {
+      opacity: 1;
+    }
+  }
+}

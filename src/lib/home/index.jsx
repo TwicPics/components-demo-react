@@ -1,7 +1,7 @@
 import React from 'react';
-import { TwicWrapper } from '../demo-wrapper/TwicWrapper';
+import { TwicWrapper } from '../components/demo-wrapper/twicWrapper';
 import { NavLink } from 'react-router-dom';
-import { TwicImg } from '@twicpics/components/react';
+import { TwicImg, TwicVideo } from '@twicpics/components/react';
 import './index.scss';
 
 const categories = [
@@ -19,6 +19,16 @@ const categories = [
         title: `Basic example`
       },
       {
+        route: `/bulk-loading`,
+        imgSrc: `https://assets.twicpics.com/examples/football.jpg`,
+        title: `Bulk Loading`
+      },
+      {
+        route: `/color-blindness`,
+        imgSrc: `components/colored-balloons.jpg`,
+        title: `Color Blindness`
+      },
+      {
         route: `/flip-cards`,
         imgSrc: `components/flip/orange-1.jpg`,
         title: `Flip cards`
@@ -29,9 +39,20 @@ const categories = [
         title: `Grid & zoom`
       },
       {
+        route: `/hero`,
+        imgSrc: `components/goldenGate.jpg`,
+        title: `Hero image`
+      },
+      {
         route: `/modal`,
         imgSrc: `components/modal/seagull.jpg`,
         title: `Modal`
+      },
+      {
+        route: `/short-videos`,
+        videoSrc: `video/skater.mp4`,
+        title: `Short videos`,
+        intrinsic: '1280x720'
       },
       {
         route: `/slider`,
@@ -47,6 +68,11 @@ const categories = [
         route: `/style-driven`,
         imgSrc: `components/horse.jpg`,
         title: `Style driven`
+      },
+      {
+        route: `/page-templating`,
+        imgSrc: `components/woman.jpg`,
+        title: `Page templating`
       }
     ]
   },
@@ -54,9 +80,29 @@ const categories = [
     title: `<TwicImg> properties`,
     items: [
       {
+        route: `/anchor`,
+        imgSrc: `cat_1x1.jpg`,
+        title: `anchor`
+      },
+      {
+        route: `/bot`,
+        imgSrc: `components/puppy.jpg`,
+        title: `bot`
+      },
+      {
+        route: `/eager`,
+        imgSrc: `components/eager/light-red-flares.jpg`,
+        title: `eager`
+      },
+      {
         route: `/focus`,
         imgSrc: `components/puppy.jpg`,
         title: `focus`
+      },
+      {
+        route: `/intrinsic`,
+        imgSrc: `components/fantasy.jpg`,
+        title: `intrinsic`
       },
       {
         route: `/mode`,
@@ -64,7 +110,7 @@ const categories = [
         title: `mode`
       },
       {
-        route: `/placeholders`,
+        route: `/placeholder`,
         imgSrc: `components/cat.jpg`,
         title: `placeholder`
       },
@@ -74,9 +120,19 @@ const categories = [
         title: `position`
       },
       {
+        route: `/pretransform`,
+        imgSrc: `components/man-hiding-his-hands.jpg`,
+        title: `preTransform`
+      },
+      {
         route: `/ratio`,
         imgSrc: `components/woman-and-winter.jpg`,
         title: `ratio`
+      },
+      {
+        route: `/state`,
+        imgSrc: `components/states/autumn.jpg`,
+        title: `state`
       },
       {
         route: `/transition`,
@@ -87,7 +143,7 @@ const categories = [
   }
 ];
 
-function Home() {
+export const Home = () => {
   return (
     <TwicWrapper>
       <div className="home-container">
@@ -98,7 +154,11 @@ function Home() {
               {category.items.map((item, j) => (
                 <NavLink to={item.route} key={`useCase ${j}`}>
                   <figure className="twic-item">
-                    <TwicImg src={item.imgSrc} focus="auto" ratio="0.95"></TwicImg>
+                    {item.imgSrc ? (
+                      <TwicImg src={item.imgSrc} focus="auto" ratio="0.95" />
+                    ) : (
+                      <TwicVideo src={item.videoSrc} ratio="0.95" intrinsic={item.intrinsic} />
+                    )}
                     <figcaption>
                       <p>{item.title}</p>
                     </figcaption>
@@ -111,6 +171,4 @@ function Home() {
       </div>
     </TwicWrapper>
   );
-}
-
-export default Home;
+};
