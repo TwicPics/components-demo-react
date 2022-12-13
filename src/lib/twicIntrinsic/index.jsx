@@ -15,7 +15,7 @@ export const TwicIntrinsic = () => {
             <p>
               <strong>
                 The <dfn>intrinsic</dfn> property allows to specify the intrinsic dimensions of the
-                image or video in pixel as in <Code>intrinsic="3840x2160"</Code>
+                image or video in pixel as in<Code>intrinsic="3840x2160"</Code>
               </strong>
             </p>
             <p>It prevents image or video upscaling and limits the number of generated variants</p>
@@ -24,7 +24,7 @@ export const TwicIntrinsic = () => {
               dimensions than those that may be displayed.
             </p>
             <p>
-              This is often the case when using{' '}
+              This is often the case when using&nbsp;
               <a href="/hero" target="_blank" rel="noreferrer">
                 hero images and videos
               </a>

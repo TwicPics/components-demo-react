@@ -2,12 +2,12 @@ import React from 'react';
 import { TwicImg } from '@twicpics/components/react';
 import './index.scss';
 export const Modal = (props) => {
-  const { image, show } = props;
+  const { image, show, onClose } = props;
   if (!show) {
     return null;
   }
   return (
-    <div className={`modal ${show ? `modal-opened` : ``} `} onClick={props.onClose}>
+    <div className={`modal ${show ? `modal-opened` : ``} `} onClick={onClose}>
       <div className="modal-content">
         <div className="poster">
           <TwicImg src={image.url}></TwicImg>
@@ -25,4 +25,3 @@ export const Modal = (props) => {
     </div>
   );
 };
-

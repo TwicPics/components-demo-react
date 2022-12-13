@@ -1,0 +1,15 @@
+#twic-transition-container {
+  .show-transitions {
+    .twic-tf img {
+      opacity: 0 !important;
+    }
+
+    .twic-tf img + div {
+      opacity: 1 !important;
+    }
+
+    .twic-tz img {
+      transform: scale(0) !important;
+    }
+  }
+}

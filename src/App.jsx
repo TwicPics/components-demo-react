@@ -15,18 +15,19 @@ import { TwicGridAndZoom } from './lib/twicGridAndZoom';
 import { TwicHero } from './lib/twicHero';
 import { TwicIntrinsic } from './lib/twicIntrinsic';
 import { TwicModal } from './lib/twicModal';
-/*import { TwicMode } from './lib/twicMode';
-import { TwicPlaceholder } from './lib/twicPlaceholder';
+import { TwicMode } from './lib/twicMode';
 import { TwicPageTemplating } from './lib/twicPageTemplating';
+import { TwicPlaceholder } from './lib/twicPlaceholder';
 import { TwicPosition } from './lib/twicPosition';
 import { TwicPreTransform } from './lib/twicPreTransform';
 import { TwicRatio } from './lib/twicRatio';
 import { TwicShortVideos } from './lib/twicShortVideos';
 import { TwicSlider } from './lib/twicSlider';
 import { TwicSlideshow } from './lib/twicSlideshow';
-import { TwicStyleDriven } from './lib/twicStyleDriven';
 import { TwicState } from './lib/twicState';
-import { TwicTransition } from './lib/twicTransition';*/
+import { TwicStyleDriven } from './lib/twicStyleDriven';
+
+import { TwicTransition } from './lib/twicTransition';
 
 const App = () => {
   const routes = useRoutes([
@@ -43,19 +44,19 @@ const App = () => {
     { path: 'grid-and-zoom', element: <TwicGridAndZoom /> },
     { path: 'hero', element: <TwicHero /> },
     { path: 'intrinsic', element: <TwicIntrinsic /> },
-    { path: 'modal', element: <TwicModal /> }
-    // { path: 'mode', element: <TwicMode /> },
-    // { path: 'page-templating', element: <TwicPageTemplating /> },
-    // { path: 'placeholder', element: <TwicPlaceholder /> },
-    // { path: 'position', element: <TwicPosition /> },
-    // { path: 'pretransform', element: <TwicPreTransform /> },
-    // { path: 'ratio', element: <TwicRatio /> },
-    // { path: 'slider', element: <TwicSlider /> },
-    // { path: 'slideshow', element: <TwicSlideshow /> },
-    // { path: 'state', element: <TwicState /> },
-    // { path: 'style-driven', element: <TwicStyleDriven /> },
-    // { path: 'transition', element: <TwicTransition /> },
-    // { path: 'short-videos', element: <TwicShortVideos /> }
+    { path: 'modal', element: <TwicModal /> },
+    { path: 'mode', element: <TwicMode /> },
+    { path: 'page-templating', element: <TwicPageTemplating /> },
+    { path: 'placeholder', element: <TwicPlaceholder /> },
+    { path: 'position', element: <TwicPosition /> },
+    { path: 'pretransform', element: <TwicPreTransform /> },
+    { path: 'ratio', element: <TwicRatio /> },
+    { path: 'short-videos', element: <TwicShortVideos /> },
+    { path: 'slider', element: <TwicSlider /> },
+    { path: 'slideshow', element: <TwicSlideshow /> },
+    { path: 'state', element: <TwicState /> },
+    { path: 'style-driven', element: <TwicStyleDriven /> },
+    { path: 'transition', element: <TwicTransition /> }
   ]);
   return routes;
 };

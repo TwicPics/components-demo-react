@@ -21,8 +21,7 @@ export const TwicBasicGrid = () => {
             <li>
               <Code>ratio</Code>:
               <span>
-                {' '}
-                determines the value of the width/height ratio of the image display area.
+                &nbsp; determines the value of the width/height ratio of the image display area.
               </span>
             </li>
             <li>
@@ -45,13 +44,13 @@ export const TwicBasicGrid = () => {
           <div className="twic-item">
             <TwicImg src="/football.jpg" ratio="16/9" mode="cover" placeholder="meancolor" />
             <span>
-              <Code>ratio="16/9"</Code> &<Code>mode="cover"</Code>: the image fills the area
+              <Code>ratio="16/9"</Code>&<Code>mode="cover"</Code>: the image fills the area
             </span>
           </div>
           <div className="twic-item">
             <TwicImg src="/football.jpg" step="100" mode="contain" ratio="16/9" />
             <span>
-              <Code>ratio="16/9"</Code> &<Code>mode="contain"</Code>: the image sits inside the area
+              <Code>ratio="16/9"</Code>&<Code>mode="contain"</Code>: the image sits inside the area
             </span>
           </div>
           <div className="twic-item">
@@ -63,7 +62,7 @@ export const TwicBasicGrid = () => {
               placeholder="maincolor"
             />
             <span>
-              <Code>ratio="2/3"</Code>,<Code>mode="contain"</Code> &<Code>focus="auto"</Code>
+              <Code>ratio="2/3"</Code>,<Code>mode="contain"</Code>&<Code>focus="auto"</Code>
             </span>
           </div>
         </div>

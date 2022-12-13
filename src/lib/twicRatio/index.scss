@@ -1,0 +1,23 @@
+#twic-ratio-container {
+  .twic-grid {
+    --twic-grid-columns-width: 40%;
+
+    &.full-width {
+      .twic-item {
+        width: 100%;
+      }
+    }
+
+    &.half-width {
+      .twic-item {
+        width: 50%;
+        margin: auto;
+      }
+    }
+  }
+
+  .twic-item .twic-w {
+    background-color: #00ffa3;
+    display: block;
+  }
+}

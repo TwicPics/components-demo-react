@@ -31,26 +31,26 @@ export const TwicFocus = () => {
           </p>
           <p>
             You can set the focus by using coordinates or
-            <Code>auto</Code> values:
+            <Code>auto</Code>values:
           </p>
           <ul>
             <li>
               <strong>Coordinates</strong> represent a point in the image, specified as a couple of
-              positive lengths, separated by the character <Code>x</Code>.
+              positive lengths, separated by the character<Code>x</Code>.
               <br />
               As an example, in
-              <Code>focus="1920x1282"</Code>:<br />- <Code>1920</Code> is the coordinate along the
+              <Code>focus="1920x1282"</Code>:<br />-<Code>1920</Code>is the coordinate along the
               x-axis (following the width of the image)
-              <br />- and <Code>1282</Code> is the coordinate along the y-axis (following the height
+              <br />- and<Code>1282</Code>is the coordinate along the y-axis (following the height
               of the image)
             </li>
             <li>
-              If <Code>auto</Code> is used in place of actual coordinates, the focus point will be
+              If<Code>auto</Code>is used in place of actual coordinates, the focus point will be
               chosen automagically for you!
             </li>
           </ul>
           <p>
-            If you only need border-based positionning (<Code>top</Code>, <Code>bottom</Code>, etc),
+            If you only need border-based positionning (<Code>top</Code>,<Code>bottom</Code>, etc),
             use&nbsp;
             <a href="/anchor" target="_blank" rel="noreferrer">
               anchor

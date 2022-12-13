@@ -54,7 +54,7 @@ export const TwicBot = () => {
             even if they emulate different devices.
           </p>
           <p>
-            The syntax is a slash-separated list of{' '}
+            The syntax is a slash-separated list of&nbsp;
             <a
               href="https://www.twicpics.com/docs/api/transformations?utm_source=github&utm_medium=organic&utm_campaign=components"
               target="_blank"
@@ -65,7 +65,7 @@ export const TwicBot = () => {
             .
           </p>
           <p>
-            In the example bellow, <Code>bot</Code> has been set to "cover=400x400".
+            In the example bellow,<Code>bot</Code>has been set to "cover=400x400".
           </p>
           <p>
             While regular visitors will receive different variants depending on their browsing

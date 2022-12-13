@@ -1,0 +1,39 @@
+#twic-style-driven-container {
+  .twic-grid {
+    margin-bottom: 60px;
+  }
+  .twic-item .twic-w {
+    background-color: #00ffa3;
+    display: block;
+  }
+  .landscape {
+    --twic-ratio: calc(4 / 3);
+  }
+  .portrait {
+    --twic-ratio: calc(3 / 4);
+  }
+  .square {
+    --twic-ratio: calc(1);
+  }
+  .contain {
+    --twic-mode: contain;
+  }
+  .cover {
+    --twic-mode: cover;
+  }
+  .left {
+    --twic-position: left;
+  }
+  .right {
+    --twic-position: right;
+  }
+  .lg {
+    width: 300px;
+  }
+  .md {
+    width: 150px;
+  }
+  .sm {
+    width: 100px;
+  }
+}

@@ -46,7 +46,7 @@ export const TwicColorBlindness = () => {
       <TwicWrapper gitHubUrl="src/lib/twicColorBlindness/index.jsx">
         <TwicAbstract title="Color blindness filters">
           <p>
-            You can apply correction filters for color blind people with our{' '}
+            You can apply correction filters for color blind people with our&nbsp;
             <strong>experimental transformations</strong>:
           </p>
           <ul>

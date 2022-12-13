@@ -57,13 +57,13 @@ export const TwicAnchor = () => {
             <strong>
               The <dfn>anchor</dfn> property positions the image in both
               <Code>contain</Code>
-              and <Code>cover</Code> mode.
+              and<Code>cover</Code>mode.
             </strong>
           </p>
           It allows to:
           <ul>
             <li>
-              position the letterboxed image in its container in <Code>contain</Code> mode.
+              position the letterboxed image in its container in<Code>contain</Code>mode.
             </li>
             <li>
               determine what should be visible when the image is cropped in&nbsp;
@@ -71,10 +71,10 @@ export const TwicAnchor = () => {
             </li>
           </ul>
           <p>
-            Accepted values are <Code>top</Code>,&nbsp;<Code>bottom</Code>,&nbsp;<Code>left</Code>
+            Accepted values are<Code>top</Code>,<Code>bottom</Code>,<Code>left</Code>
             ,&nbsp;
-            <Code>right</Code>,&nbsp;<Code>top-left</Code>&nbsp;,<Code>top-right</Code>&nbsp;,
-            <Code>bottom-left</Code> and&nbsp;
+            <Code>right</Code>,<Code>top-left</Code>,<Code>top-right</Code>,<Code>bottom-left</Code>
+            and&nbsp;
             <Code>bottom-right</Code>.
           </p>
           <p>
@@ -87,8 +87,8 @@ export const TwicAnchor = () => {
               focus
             </a>
             &nbsp;properties in for
-            <Code>contain</Code> or
-            <Code>cover</Code> mode respectively.
+            <Code>contain</Code>or
+            <Code>cover</Code>mode respectively.
           </p>
         </TwicAbstract>
         <div className="twic-testing-container">

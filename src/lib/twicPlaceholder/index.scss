@@ -1,0 +1,11 @@
+#twic-placeholder-container {
+  .show-placeholders {
+    img {
+      visibility: hidden !important;
+    }
+
+    img + div {
+      opacity: 1 !important;
+    }
+  }
+}

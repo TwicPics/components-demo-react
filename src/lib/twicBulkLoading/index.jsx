@@ -72,26 +72,26 @@ export const TwicBulkLoading = () => {
       <TwicWrapper gitHubUrl="src/lib/twicBulkLoading/index.jsx">
         <TwicAbstract title="Bulk loading">
           <p>
-            With <Code>TwicImg</Code> and <Code>TwicVideo</Code> your medias will only start loading
+            With<Code>TwicImg</Code>and<Code>TwicVideo</Code>your medias will only start loading
             when they come into the viewport.
           </p>
           <p>
             But sometimes you may want to load multiple assets in bulk instead of lazy loading them.
           </p>
           <p>
-            This is where <Code>TwicView</Code> comes into play.
+            This is where<Code>TwicView</Code>comes into play.
           </p>
           <p>
-            The <Code>TwicView</Code> components eager loads all of his <Code>TwicImg</Code> and{' '}
-            <Code>TwicVideo</Code> children as soon as <Code>TwicView</Code> comes into the viewport
+            The<Code>TwicView</Code>components eager loads all of his<Code>TwicImg</Code>and&nbsp;
+            <Code>TwicVideo</Code>children as soon as<Code>TwicView</Code>comes into the viewport
             (depending on your anticipation settings).
           </p>
           <p>
-            See also the{' '}
+            See also the&nbsp;
             <a href="/eager" target="_blank" rel="noreferrer">
               eager property
-            </a>{' '}
-            that disables lazy loading for a given media.
+            </a>
+            &nbsp; that disables lazy loading for a given media.
           </p>
         </TwicAbstract>
         <TwicView>
