@@ -56,9 +56,10 @@ export const TwicBasicGrid = () => {
           <div className="twic-item">
             <TwicImg
               src="/football.jpg"
-              step="100"
               focus="auto"
+              mode="contain"
               ratio="2/3"
+              step="100"
               placeholder="maincolor"
             />
             <span>
