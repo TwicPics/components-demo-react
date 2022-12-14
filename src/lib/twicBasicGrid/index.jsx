@@ -21,18 +21,18 @@ export const TwicBasicGrid = () => {
             <li>
               <Code>ratio</Code>:
               <span>
-                &nbsp; determines the value of the width/height ratio of the image display area.
+                &nbsp;determines the value of the width/height ratio of the image display area.
               </span>
             </li>
             <li>
-              <Code>mode</Code>:<span>determines if the image fills or sits inside the area.</span>
+              <Code>mode</Code>:<span> determines if the image fills or sits inside the area.</span>
             </li>
             <li>
-              <Code>focus</Code>:<span>changes the focus point coordinates of the image.</span>
+              <Code>focus</Code>:<span> changes the focus point coordinates of the image.</span>
             </li>
             <li>
               <Code>placeholder</Code>:
-              <span>helps optimize your CLS and implement the LQIP technique.</span>
+              <span> helps optimize your CLS and implement the LQIP technique.</span>
             </li>
           </ul>
         </TwicAbstract>
