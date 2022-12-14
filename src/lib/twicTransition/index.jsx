@@ -18,7 +18,7 @@ export const TwicTransition = () => {
   };
   return (
     <div id="twic-transition-container">
-      <TwicWrapper gitHubUrl="src/lib/TwicTransition.svelte">
+      <TwicWrapper gitHubUrl="src/lib/twicTransition/index.jsx">
         <TwicAbstract title="transition properties">
           <p>
             <strong>
