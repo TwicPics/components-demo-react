@@ -1,8 +1,8 @@
 #twic-eager-container {
   .demo-container {
     background-color: rgba(#ffffff, $alpha: 0.8);
-    padding: 30px;
-    margin-top: calc(100px + 30vh);
+    padding: 50px;
+    margin-top: calc(100px + 40vh);
   }
 
   .banner-container {
@@ -26,6 +26,6 @@
   }
 
   & .twic-i {
-    height: 30vh;
+    height: 40vh;
   }
 }

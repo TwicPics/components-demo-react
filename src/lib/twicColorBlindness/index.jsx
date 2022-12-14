@@ -6,7 +6,7 @@ import { TwicWrapper } from '../components/demo-wrapper/twicWrapper';
 import { TwicImg } from '@twicpics/components/react';
 import './index.scss';
 
-const imgUrl = `components/colored-balloons.jpg`;
+const imgUrl = `components/color-blindless/umbrellas.jpg`;
 
 const config = [
   {

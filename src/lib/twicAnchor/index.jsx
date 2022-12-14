@@ -78,6 +78,13 @@ export const TwicAnchor = () => {
             <Code>bottom-right</Code>.
           </p>
           <p>
+            Please note that anchor is applied after an eventual transformation defined with&nbsp;
+            <a href="/preTransform" target="_blank" rel="noreferrer">
+              preTransform
+            </a>
+            &nbsp;property.
+          </p>
+          <p>
             For a more specific positionning see&nbsp;
             <a href="/position" target="_blank" rel="noreferrer">
               position
@@ -99,7 +106,8 @@ export const TwicAnchor = () => {
         <div className="twic-grid">
           <div className="twic-item">
             <TwicImg
-              src="cat_1x1.jpg"
+              src="components/anchor/anchor.jpg"
+              preTransform="focus=bottom-right/cover=1:1"
               anchor={actualHorizontal.anchor}
               mode="contain"
               ratio="4/3"
@@ -112,7 +120,13 @@ export const TwicAnchor = () => {
             </span>
           </div>
           <div className="twic-item">
-            <TwicImg src="cat_1x1.jpg" anchor={actualVertical.anchor} mode="contain" ratio="3/4" />
+            <TwicImg
+              src="components/anchor/anchor.jpg"
+              preTransform="focus=bottom-right/cover=1:1"
+              anchor={actualVertical.anchor}
+              mode="contain"
+              ratio="3/4"
+            />
             <span>
               <span>
                 <span>
@@ -123,7 +137,13 @@ export const TwicAnchor = () => {
             </span>
           </div>
           <div className="twic-item">
-            <TwicImg src="cat_1x1.jpg" anchor={actualHorizontal.anchor} mode="cover" ratio="3/4" />
+            <TwicImg
+              src="components/anchor/anchor.jpg"
+              preTransform="focus=bottom/cover=1:1"
+              anchor={actualHorizontal.anchor}
+              mode="cover"
+              ratio="3/4"
+            />
             <span>
               <span>
                 <Code>anchor="{actualHorizontal.anchor}"</Code>
@@ -132,7 +152,13 @@ export const TwicAnchor = () => {
             </span>
           </div>
           <div className="twic-item">
-            <TwicImg src="cat_1x1.jpg" anchor={actualVertical.anchor} mode="cover" ratio="4/3" />
+            <TwicImg
+              src="components/anchor/anchor.jpg"
+              preTransform="cover=1:1"
+              anchor={actualVertical.anchor}
+              mode="cover"
+              ratio="4/3"
+            />
             <span>
               <span>
                 <span>

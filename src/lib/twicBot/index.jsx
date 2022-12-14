@@ -74,8 +74,8 @@ export const TwicBot = () => {
           </p>
           <p>
             <strong>Sets your browser's user agent to a bot engine value</strong>
-            to see how bots will perceive the images. Note that context changes then have no effect
-            on the delivered image.
+            &nbsp;to see how bots will perceive the images. Note that context changes then have no
+            effect on the delivered image.
           </p>
         </TwicAbstract>
         <div className="twic-testing-container">
@@ -85,12 +85,12 @@ export const TwicBot = () => {
         </div>
         <div className="twic-grid">
           <div className="twic-item">
-            <img src="https://demo.twic.pics/https://assets.twicpics.com/examples/football.jpg?twic=v1/cover=400x400" />
+            <img src="https://demo.twic.pics/https://assets.twicpics.com/demo/@twicpics-components/bot/robot.jpg?twic=v1/cover=400x400" />
             <span> Media seen by search engine bots </span>
           </div>
           <div className="twic-item">
             <TwicImg
-              src="https://assets.twicpics.com/examples/football.jpg"
+              src="https://assets.twicpics.com/demo/@twicpics-components/bot/robot.jpg"
               bot="cover=400x400"
               ratio={actualConfig.ratio}
             />
@@ -99,7 +99,7 @@ export const TwicBot = () => {
 
           <div className="twic-item">
             <TwicImg
-              src="https://assets.twicpics.com/examples/football.jpg"
+              src="https://assets.twicpics.com/demo/@twicpics-components/bot/robot.jpg"
               bot="cover=400x400"
               preTransform={actualConfig.preTransform}
             />
@@ -107,7 +107,7 @@ export const TwicBot = () => {
           </div>
           <div className="twic-item">
             <TwicImg
-              src="https://assets.twicpics.com/examples/football.jpg"
+              src="https://assets.twicpics.com/demo/@twicpics-components/bot/robot.jpg"
               bot="cover=400x400"
               anchor={actualConfig.anchor}
             />

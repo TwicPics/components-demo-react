@@ -7,16 +7,16 @@ import './index.scss';
 
 const config = [
   {
-    src: 'components/states/autumn.jpg'
+    src: 'components/state/autumn.jpg'
   },
   {
-    src: 'components/states/winter.jpg'
+    src: 'components/state/winter.jpg'
   },
   {
-    src: 'components/states/springForest.jpg'
+    src: 'components/state/spring.jpg'
   },
   {
-    src: 'components/states/summer.jpg'
+    src: 'components/state/summer.jpg'
   }
 ];
 
@@ -33,8 +33,8 @@ export const TwicState = () => {
       <TwicWrapper gitHubUrl="src/lib/TwicState.svelte">
         <TwicAbstract title="state property and / or statechange event ">
           <p>
-            You can access to the loading state of your image or video by passing a
-            callback to<Code>onStateChange</Code> property.
+            You can access to the loading state of your image or video by passing a callback to
+            <Code>onStateChange</Code> property.
           </p>
           <p>Here are the values the Component will emit :</p>
           <ul>
@@ -55,7 +55,9 @@ export const TwicState = () => {
             <strong>Change the width of your browser</strong> to see the image aspect-ratio adapt
             according to the CSS rules. The loading status should then also be updated.
           </p>
-          <p>Current state is: <b>{state}</b>.</p>
+          <p>
+            Current state is: <b>{state}</b>.
+          </p>
         </TwicAbstract>
         <div className="twic-testing-container">
           <button

@@ -6,29 +6,24 @@ import './index.scss';
 
 const images = [
   {
-    src: `components/eager/speedometer.jpg`,
-    focus: `center`
-  },
-  {
-    src: `components/eager/grey-car.jpg`,
-    focus: `50px56p`
-  },
-  {
-    src: `components/eager/grey-porsche.jpg`,
-    focus: `40px65p`,
+    src: `components/eager/subway-1.jpg`,
     preTransform: 'flip=x'
   },
   {
-    src: `components/eager/blue-mustang.jpg`,
-    focus: `50px45p`
+    src: `components/eager/subway-2.jpg`,
+    focus: `50px30p`
   },
   {
-    src: `components/eager/white-flares-bridge.jpg`,
-    focus: `center`
+    src: `components/eager/subway-3.jpg`
   },
   {
-    src: `components/eager/light-red-flares.jpg`,
-    focus: `center`
+    src: `components/eager/subway-4.jpg`
+  },
+  {
+    src: `components/eager/subway-5.jpg`
+  },
+  {
+    src: `components/eager/subway-6.jpg`
   }
 ];
 

@@ -15,7 +15,7 @@ export const TwicIntrinsic = () => {
             <p>
               <strong>
                 The <dfn>intrinsic</dfn> property allows to specify the intrinsic dimensions of the
-                image or video in pixel as in<Code>intrinsic="3840x2160"</Code>
+                image or video in pixel as in<Code>intrinsic="1920x1179"</Code>
               </strong>
             </p>
             <p>It prevents image or video upscaling and limits the number of generated variants</p>
@@ -32,7 +32,7 @@ export const TwicIntrinsic = () => {
             </p>
           </TwicAbstract>
           <div className="hero">
-            <TwicImg src="components/fantasy.jpg" ratio="none" intrinsic="6526x3000" />
+            <TwicImg src="components/intrinsic/moon.jpg" ratio="none" intrinsic="1920x1179" />
           </div>
         </div>
       </TwicWrapper>
