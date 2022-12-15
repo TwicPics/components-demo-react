@@ -77,9 +77,7 @@ If you don't already have one, you can easily [create your own TwicPics account 
 
 ### Configuring `@twicpics/components`
 
-TwicPics components for `React.js` comes as an `ES module`.
-
-An example of configuration is already set within `index.js` file.
+An example of configuration is set within `index.jsx` file.
 
 All you have to do is set your configuration options to the desired values ([see documentation](https://github.com/TwicPics/components/blob/main/documentation/react.md#setup-options)).
 
