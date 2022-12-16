@@ -11,11 +11,10 @@ This project is a demonstration project of [TwicPics Components](https://github.
 $ npm install
 
 # serve with hot reload at localhost:3000
-$ npm run dev
+$ npm run serve
 
-# build for production and launch server
+# build for production
 $ npm run build
-$ npm run preview
 ```
 
 ### Using yarn
@@ -25,11 +24,10 @@ $ npm run preview
 $ yarn install
 
 # serve with hot reload at localhost:3000
-$ yarn dev
+$ yarn serve
 
-# build for production and launch server
+# build for production
 $ yarn build
-$ yarn preview
 ```
 
 ## Overview
