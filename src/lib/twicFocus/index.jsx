@@ -46,7 +46,7 @@ export const TwicFocus = () => {
             </li>
             <li>
               If<Code>auto</Code>is used in place of actual coordinates, the focus point will be
-              chosen automagically for you!
+              chosen automatically for you!
             </li>
           </ul>
           <p>
