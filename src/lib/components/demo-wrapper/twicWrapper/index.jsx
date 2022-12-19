@@ -47,8 +47,8 @@ export const TwicWrapper = ({ gitHubUrl, children }) => {
         <div className="tags-container">
           <div className="tag tag-components">@twicpics-components</div>
           <a
-            href={documentationUrl}
             target="_blank"
+            href={documentationUrl}
             className="documentation-link tag tag--bg-purple-rain"
             rel="noreferrer"
           >

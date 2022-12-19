@@ -1,6 +1,6 @@
 # TwicPics Components + React
 
-This project is a demonstration project of [TwicPics Components](https://github.com/TwicPics/components/blob/main/documentation/react.md) using [React.js](https://reactjs.org/).
+This project is a demonstration project of [TwicPics Components](https://www.twicpics.com/docs/components/react?utm_source=github&utm_medium=organic&utm_campaign=components) using [React.js](https://reactjs.org/).
 
 ## How to build
 
@@ -77,7 +77,7 @@ If you don't already have one, you can easily [create your own TwicPics account 
 
 An example of configuration is set within `index.jsx` file.
 
-All you have to do is set your configuration options to the desired values ([see documentation](https://github.com/TwicPics/components/blob/main/documentation/react.md#setup-options)).
+All you have to do is set your configuration options to the desired values ([see documentation](https://www.twicpics.com/docs/components/react?utm_source=github&utm_medium=organic&utm_campaign=components#setup-options)).
 
 ## Examples
 
