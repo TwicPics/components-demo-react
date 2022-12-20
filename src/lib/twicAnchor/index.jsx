@@ -8,7 +8,7 @@ import './index.scss';
 
 const verticalConfig = [
   {
-    anchor: undefined
+    anchor: `center`
   },
   {
     anchor: `top`
@@ -20,7 +20,7 @@ const verticalConfig = [
 
 const horizontalConfig = [
   {
-    anchor: undefined
+    anchor: `center`
   },
   {
     anchor: `left`
@@ -74,8 +74,7 @@ export const TwicAnchor = () => {
             Accepted values are<Code>top</Code>,<Code>bottom</Code>,<Code>left</Code>
             ,&nbsp;
             <Code>right</Code>,<Code>top-left</Code>,<Code>top-right</Code>,<Code>bottom-left</Code>
-            and&nbsp;
-            <Code>bottom-right</Code>.
+            <Code>bottom-right</Code>and<Code>center</Code>.
           </p>
           <p>
             Please note that anchor is applied after an eventual transformation defined with&nbsp;
