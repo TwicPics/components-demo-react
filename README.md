@@ -75,7 +75,7 @@ If you don't already have one, you can easily [create your own TwicPics account 
 
 ### Configuring `@twicpics/components`
 
-An example of configuration is set within `index.jsx` file.
+An example of configuration is set within `scr/main.jsx` file.
 
 All you have to do is set your configuration options to the desired values ([see documentation](https://www.twicpics.com/docs/components/react?utm_source=github&utm_medium=organic&utm_campaign=components#setup-options)).
 
