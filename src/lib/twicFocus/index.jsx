@@ -18,7 +18,7 @@ export const TwicFocus = () => {
 
   return (
     <div id="twic-focus-container">
-      <TwicWrapper gitHubUrl="src/lib/twicFocus/index.jsx">
+      <TwicWrapper filename="src/lib/twicFocus/index.jsx">
         <TwicAbstract title="focus property">
           <p>
             <strong>

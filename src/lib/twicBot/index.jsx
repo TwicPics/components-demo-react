@@ -8,7 +8,7 @@ import './index.scss';
 
 const config = [
   {
-    anchor: "center",
+    anchor: 'center',
     preTransform: 'flip=x',
     ratio: '4/3'
   },
@@ -41,7 +41,7 @@ export const TwicBot = () => {
   });
   return (
     <div id="twic-bot-container">
-      <TwicWrapper gitHubUrl="src/lib/twicBot/index.jsx">
+      <TwicWrapper filename="src/lib/twicBot/index.jsx">
         <TwicAbstract title="bot property">
           <p>
             <strong>

@@ -4,13 +4,30 @@ import stackBlitzLogo from '../../../../assets/stackblitz.svg';
 
 import './index.scss';
 
-export const TwicWrapper = ({ gitHubUrl, children }) => {
+const GITHUB_REPO_NAME = `TwicPics/components-demo-react`;
+const GITHUB = `https://github.com/${GITHUB_REPO_NAME}`;
+
+export const TwicWrapper = ({ filename, children }) => {
   const frameworkLogo = `https://assets.twicpics.com/demo/@twicpics-components/logos/react.png`;
   const documentationUrl = `https://www.twicpics.com/docs/components/react?utm_source=github&utm_medium=organic&utm_campaign=components`;
-  const GITHUB = `https://github.com/TwicPics/components-demo-react`;
-  const ONLINE_URL = `https://stackblitz.com/edit/github-wpprt7?file=`;
-  const onlineUrl = `${ONLINE_URL}${gitHubUrl || 'README.md'}`;
-  const gitHubRedirect = gitHubUrl ? `${GITHUB}/blob/main/${gitHubUrl}` : GITHUB;
+  let onlineUrl = `https://stackblitz.com/github/${GITHUB_REPO_NAME}?file=${
+    filename || 'README.md'
+  }`;
+  if (filename) {
+    const test = /src\/lib\/twic(.*)\//.exec(filename);
+    if (test) {
+      // eslint-disable-next-line no-unused-vars
+      let [_, initialPath] = test;
+      initialPath = initialPath
+        .replace(/([A-Z])/g, ' $1')
+        .trim()
+        .split(' ')
+        .join('-')
+        .toLowerCase();
+      onlineUrl = `${onlineUrl}&initialpath=${initialPath}`;
+    }
+  }
+  const gitHubUrl = filename ? `${GITHUB}/blob/main/${filename}` : GITHUB;
   return (
     <div id="twic-demo-wrapper">
       <header id="twic-header">
@@ -27,7 +44,7 @@ export const TwicWrapper = ({ gitHubUrl, children }) => {
         </a>
         <div className="ribbon">
           <div>
-            <a target="_blank" href={gitHubRedirect} rel="noreferrer" title="Open in Github">
+            <a target="_blank" href={gitHubUrl} rel="noreferrer" title="Open in Github">
               <img className="github" src={githubLogo} alt="Open in Github" />
             </a>
             <a target="_blank" href={onlineUrl} rel="noreferrer" title="Open in StackBlitz">

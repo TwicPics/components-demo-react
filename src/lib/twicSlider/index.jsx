@@ -58,7 +58,7 @@ const images = [
 export const TwicSlider = () => {
   return (
     <div id="twic-slider-container">
-      <TwicWrapper gitHubUrl="src/lib/twicSlider/index.jsx">
+      <TwicWrapper filename="src/lib/twicSlider/index.jsx">
         <TwicAbstract title="A slider">
           <p>
             A simple slider that uses TwicPics for automatic lazy-loading, CLS optimization and art

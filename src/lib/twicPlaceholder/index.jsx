@@ -20,7 +20,7 @@ export const TwicPlaceholder = () => {
 
   return (
     <div id="twic-placeholder-container">
-      <TwicWrapper gitHubUrl="src/lib/twicPlaceholder/index.jsx">
+      <TwicWrapper filename="src/lib/twicPlaceholder/index.jsx">
         <TwicAbstract title="placeholder property">
           <p>
             <strong>

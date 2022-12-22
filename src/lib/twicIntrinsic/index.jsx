@@ -9,7 +9,7 @@ import './index.scss';
 export const TwicIntrinsic = () => {
   return (
     <div id="twic-intrinsic-container">
-      <TwicWrapper gitHubUrl="src/lib/twicIntrinsic/index.jsx">
+      <TwicWrapper filename="src/lib/twicIntrinsic/index.jsx">
         <div className="demo-container">
           <TwicAbstract title="intrinsic property">
             <p>

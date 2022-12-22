@@ -9,7 +9,7 @@ import './index.scss';
 export const TwicHero = () => {
   return (
     <div id="twic-hero-container">
-      <TwicWrapper gitHubUrl="src/lib/twicHero/index.jsx">
+      <TwicWrapper filename="src/lib/twicHero/index.jsx">
         <div className="twic-demo-container">
           <TwicAbstract title="Hero image">
             <p>To display a hero image (or video) you need to :</p>

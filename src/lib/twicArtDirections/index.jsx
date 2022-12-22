@@ -9,7 +9,7 @@ const imgUrl = `components/greece.jpg`;
 export const TwicArtDirections = () => {
   return (
     <div id="twic-art-direction-container">
-      <TwicWrapper gitHubUrl="src/lib/twicArtDirections/index.jsx">
+      <TwicWrapper filename="src/lib/twicArtDirections/index.jsx">
         <TwicAbstract title="Art directions with CSS media queries">
           <p>Setting up components using CSS enables hassle-free responsive designs.</p>
           <p>You do not need to create a set of images derived from the original.</p>

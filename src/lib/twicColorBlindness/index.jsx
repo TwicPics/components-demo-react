@@ -43,7 +43,7 @@ export const TwicColorBlindness = () => {
   });
   return (
     <div id="twic-color-blindness-container">
-      <TwicWrapper gitHubUrl="src/lib/twicColorBlindness/index.jsx">
+      <TwicWrapper filename="src/lib/twicColorBlindness/index.jsx">
         <TwicAbstract title="Color blindness filters">
           <p>
             You can apply correction filters for color blind people with our&nbsp;

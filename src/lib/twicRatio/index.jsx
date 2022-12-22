@@ -14,7 +14,7 @@ export const TwicRatio = () => {
   const [fullWidthAera, setFullWidthAera] = useState(true);
   return (
     <div id="twic-ratio-container">
-      <TwicWrapper gitHubUrl="src/lib/twicRatio/index.jsx">
+      <TwicWrapper filename="src/lib/twicRatio/index.jsx">
         <TwicAbstract title="ratio property">
           <p>
             <strong>

@@ -21,7 +21,7 @@ export const TwicPosition = () => {
   };
   return (
     <div id="twic-position-container">
-      <TwicWrapper gitHubUrl="src/lib/twicPosition/index.jsx">
+      <TwicWrapper filename="src/lib/twicPosition/index.jsx">
         <TwicAbstract title="position property">
           <p>
             In<Code>contain</Code>mode,

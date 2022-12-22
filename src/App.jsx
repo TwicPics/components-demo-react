@@ -49,7 +49,7 @@ const App = () => {
     { path: 'page-templating', element: <TwicPageTemplating /> },
     { path: 'placeholder', element: <TwicPlaceholder /> },
     { path: 'position', element: <TwicPosition /> },
-    { path: 'pretransform', element: <TwicPreTransform /> },
+    { path: 'pre-transform', element: <TwicPreTransform /> },
     { path: 'ratio', element: <TwicRatio /> },
     { path: 'short-videos', element: <TwicShortVideos /> },
     { path: 'slider', element: <TwicSlider /> },
