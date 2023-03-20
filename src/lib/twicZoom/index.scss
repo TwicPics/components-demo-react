@@ -1,0 +1,8 @@
+#twic-zoom-container {
+  .twic-grid {
+    --twic-grid-columns-width: calc(400px);
+  }
+  .twic-item {
+    cursor: crosshair;
+  }
+}

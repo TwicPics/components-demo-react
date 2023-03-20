@@ -42,7 +42,37 @@ export const TwicStyleDriven = () => {
           </div>
         </div>
         <p>
-          <b>2.</b> Class combination: you can set up multiples props as<Code>object-fit</Code>and
+          <b>2.</b> Set up{' '}
+          <a href="/zoom" target="_blank" rel="noreferrer">
+            zoom
+          </a>{' '}
+          value with <Code>--twic-zoom</Code> css variable.
+        </p>
+        <div className="twic-grid">
+          <div className="twic-item zoom-sm">
+            <TwicImg src={imgUrl} zoom="css" />
+            <span>
+              class
+              <Code>zoom-sm</Code>
+            </span>
+          </div>
+          <div className="twic-item zoom-md">
+            <TwicImg src={imgUrl} zoom="css" />
+            <span>
+              class
+              <Code>zoom-md</Code>
+            </span>
+          </div>
+          <div className="twic-item zoom-lg">
+            <TwicImg src={imgUrl} zoom="css" />
+            <span>
+              class
+              <Code>zoom-lg</Code>
+            </span>
+          </div>
+        </div>
+        <p>
+          <b>3.</b> Class combination: you can set up multiples props as<Code>object-fit</Code>and
           <Code>position</Code>with
           <Code>--twic-mode</Code>and
           <Code>twic-position</Code>
@@ -74,7 +104,7 @@ export const TwicStyleDriven = () => {
           </div>
         </div>
         <p>
-          <b>3.</b> Other classical settings (here with
+          <b>4.</b> Other classical settings (here with
           <Code>width</Code>)
         </p>
         <br></br>

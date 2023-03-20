@@ -26,8 +26,8 @@ import { TwicSlider } from './lib/twicSlider';
 import { TwicSlideshow } from './lib/twicSlideshow';
 import { TwicState } from './lib/twicState';
 import { TwicStyleDriven } from './lib/twicStyleDriven';
-
 import { TwicTransition } from './lib/twicTransition';
+import { TwicZoom } from './lib/twicZoom';
 
 const App = () => {
   const routes = useRoutes([
@@ -56,7 +56,8 @@ const App = () => {
     { path: 'slideshow', element: <TwicSlideshow /> },
     { path: 'state', element: <TwicState /> },
     { path: 'style-driven', element: <TwicStyleDriven /> },
-    { path: 'transition', element: <TwicTransition /> }
+    { path: 'transition', element: <TwicTransition /> },
+    { path: 'zoom', element: <TwicZoom /> }
   ]);
   return routes;
 };

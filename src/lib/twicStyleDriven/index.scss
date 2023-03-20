@@ -36,4 +36,13 @@
   .sm {
     width: 100px;
   }
+  .zoom-sm {
+    --twic-zoom: 1.5;
+  }
+  .zoom-md {
+    --twic-zoom: 2;
+  }
+  .zoom-lg {
+    --twic-zoom: 3;
+  }
 }
