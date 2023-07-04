@@ -21,6 +21,7 @@ import { TwicPlaceholder } from './lib/twicPlaceholder';
 import { TwicPosition } from './lib/twicPosition';
 import { TwicPreTransform } from './lib/twicPreTransform';
 import { TwicRatio } from './lib/twicRatio';
+import { TwicRefit } from './lib/twicRefit';
 import { TwicShortVideos } from './lib/twicShortVideos';
 import { TwicSlider } from './lib/twicSlider';
 import { TwicSlideshow } from './lib/twicSlideshow';
@@ -51,6 +52,7 @@ const App = () => {
     { path: 'position', element: <TwicPosition /> },
     { path: 'pre-transform', element: <TwicPreTransform /> },
     { path: 'ratio', element: <TwicRatio /> },
+    { path: 'refit', element: <TwicRefit /> },
     { path: 'short-videos', element: <TwicShortVideos /> },
     { path: 'slider', element: <TwicSlider /> },
     { path: 'slideshow', element: <TwicSlideshow /> },
