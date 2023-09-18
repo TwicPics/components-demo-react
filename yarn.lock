@@ -444,10 +444,10 @@
   resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.7.1.tgz#fea7ac35ae4014637c130011f59428f618730498"
   integrity sha512-bgVQM4ZJ2u2CM8k1ey70o1ePFXsEzYVZoWghh6WjM8p59jQ7HxzbHW4SbnWFG7V9ig9chLawQxDTZ3xzOF8MkQ==
 
-"@twicpics/components@0.22.2":
-  version "0.22.2"
-  resolved "https://registry.yarnpkg.com/@twicpics/components/-/components-0.22.2.tgz#e93ef4305f86ed5ede5a7c5a569f918ff8e87f1f"
-  integrity sha512-6LFdJrfRpr/EdcmwgBt/TyOdOu0MqEB0gxvYxBwcJBnctM3BPp8EpvPDtotZl/MBtC5c5MVGJ22xwCaMph6x+g==
+"@twicpics/components@0.22.3":
+  version "0.22.3"
+  resolved "https://registry.yarnpkg.com/@twicpics/components/-/components-0.22.3.tgz#4a56460dcb4fc7dfceb6dd54ddb517a7f8c011c5"
+  integrity sha512-n69OPmHJmGXf1SKdfdLDEgTqxTuh93ZiVN6tsOPie3P4xF3HQrv3/Wx6GE3L6E6rw8TbTR7ElWc0vQ9JSNhkpw==
 
 "@types/prop-types@*":
   version "15.7.5"
