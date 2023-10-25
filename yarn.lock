@@ -444,10 +444,10 @@
   resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.7.1.tgz#fea7ac35ae4014637c130011f59428f618730498"
   integrity sha512-bgVQM4ZJ2u2CM8k1ey70o1ePFXsEzYVZoWghh6WjM8p59jQ7HxzbHW4SbnWFG7V9ig9chLawQxDTZ3xzOF8MkQ==
 
-"@twicpics/components@0.23.0":
-  version "0.23.0"
-  resolved "https://registry.yarnpkg.com/@twicpics/components/-/components-0.23.0.tgz#a0d2c28f8d9e62d1cbdfbd13c3092e5deca750d7"
-  integrity sha512-LeOtdEWNSf5FZigqdpeU1UJU+fVhn0ZJHsQRwiTNioMvKG8qa6NXQqSD6wdshwMph0iX0Mmw+Wf5vw8OOoiZqQ==
+"@twicpics/components@0.24.0":
+  version "0.24.0"
+  resolved "https://registry.yarnpkg.com/@twicpics/components/-/components-0.24.0.tgz#b7539432c1dbab48936cc540b1bc2cd8d163c358"
+  integrity sha512-cAslvx0xYjaKBo2n1iAt6ggUZcgsqCm3FRHVo4Mqa24hp/qF1T6rExQcM3KEwVT2mJLLvnPAd9JP/5yfSVMt1A==
 
 "@types/babel__core@^7.20.2":
   version "7.20.2"
