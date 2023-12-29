@@ -16,8 +16,7 @@ export const TwicHero = () => {
             <ul>
               <li>define the dimensions of TwicImg (or TwicVideo) especially it's height.</li>
               <li>
-                use<Code>ratio="none"</Code>to free
-                <a href="/ratio" target="_blank" rel="noreferrer">
+                use<Code>ratio="none"</Code>to free <a href="/ratio" target="_blank" rel="noreferrer">
                   aspect ratio
                 </a>
               </li>
@@ -25,8 +24,7 @@ export const TwicHero = () => {
                 specify the dimensions of the original image in&nbsp;
                 <a href="/intrinsic" target="_blank" rel="noreferrer">
                   intrinsic
-                </a>
-                property as in<Code>intrinsic="3840x2160"</Code>
+                </a> property as in<Code>intrinsic="3840x2160"</Code>
               </li>
             </ul>
             <p>
