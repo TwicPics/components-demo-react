@@ -8,6 +8,7 @@ import { TwicBasicGrid } from './lib/twicBasicGrid';
 import { TwicBot } from './lib/twicBot';
 import { TwicBulkLoading } from './lib/twicBulkLoading';
 import { TwicColorBlindness } from './lib/twicColorBlindness';
+import { TwicCriticalImage } from './lib/twicCriticalImage';
 import { TwicEager } from './lib/twicEager';
 import { TwicFlipCards } from './lib/twicFlipCards';
 import { TwicFocus } from './lib/twicFocus';
@@ -39,6 +40,7 @@ const App = () => {
     { path: 'bot', element: <TwicBot /> },
     { path: 'bulk-loading', element: <TwicBulkLoading /> },
     { path: 'color-blindness', element: <TwicColorBlindness /> },
+    { path: 'critical-image', element: <TwicCriticalImage /> },
     { path: 'eager', element: <TwicEager /> },
     { path: 'flip-cards', element: <TwicFlipCards /> },
     { path: 'focus', element: <TwicFocus /> },

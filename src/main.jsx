@@ -9,7 +9,6 @@ installTwicPics({
   domain: `https://demo.twic.pics`,
   anticipation: 0.5,
   step: 100,
-  maxDPR: 1
 });
 
 ReactDOM.createRoot(document.getElementById('root')).render(
