@@ -34,12 +34,12 @@ export const TwicCriticalImage = () => {
           </p>
           <p>
             It operates independently of{' '}
-            <a target="_blank" href="https://www.twicpics.com/docs/essentials/script">
+            <a target="_blank" href="https://www.twicpics.com/docs/essentials/native">
               TwicPics Script
             </a>{' '}
             and dynamically generates <Code>source</Code> elements and <Code>srcset</Code>{' '}
             attributes from a <b>single master file</b> using variants transformed through{' '}
-            <a target="_blank" href="https://www.twicpics.com/docs/guides/writing-api-requests">
+            <a target="_blank" href="https://www.twicpics.com/docs/essentials/api">
               TwicPics API
             </a>
             .

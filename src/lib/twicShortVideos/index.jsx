@@ -26,7 +26,7 @@ export const TwicShortVideos = () => {
           </p>
           <p>
             The TwicPics API features three transformations that can be used to <a
-              href="https://www.twicpics.com/docs/topics/video-optimization#video-slicing?utm_source=github&utm_medium=organic&utm_campaign=components#react"
+              href="https://www.twicpics.com/docs/guides/video-optimization#video-slicing?utm_source=github&utm_medium=organic&utm_campaign=components#react"
               target="_blank"
               rel="noreferrer"
             >extract a portion of the original video</a>.
