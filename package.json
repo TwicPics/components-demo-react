@@ -43,7 +43,7 @@
     "vite": "5.0.12"
   },
   "dependencies": {
-    "@twicpics/components": "0.27.2",
+    "@twicpics/components": "0.28",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-router-dom": "6.21.3",
