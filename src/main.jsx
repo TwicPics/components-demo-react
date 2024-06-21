@@ -6,7 +6,7 @@ import '@twicpics/components/style.css';
 import App from './App';
 
 installTwicPics({
-  domain: `https://demo.twic.pics`,
+  domain: `https://demo.twic.it`,
   anticipation: 0.5,
   step: 100,
 });
