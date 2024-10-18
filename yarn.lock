@@ -562,10 +562,10 @@
   resolved "https://registry.yarnpkg.com/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.13.0.tgz#6abd79db7ff8d01a58865ba20a63cfd23d9e2a10"
   integrity sha512-UKXUQNbO3DOhzLRwHSpa0HnhhCgNODvfoPWv2FCXme8N/ANFfhIPMGuOT+QuKd16+B5yxZ0HdpNlqPvTMS1qfw==
 
-"@twicpics/components@0.29.2":
-  version "0.29.2"
-  resolved "https://registry.yarnpkg.com/@twicpics/components/-/components-0.29.2.tgz#9e531fa28ab2ac5a42c5719aa25aa82651d9e298"
-  integrity sha512-BzvtOTDW+aylx/gEk9kYdReDlo5rbQhCgMcLly5THZcnvMOM6nuKHOiQl/kmZa/smM3fh3nKaDQjuU19gEI4Nw==
+"@twicpics/components@0.31.0":
+  version "0.31.0"
+  resolved "https://registry.yarnpkg.com/@twicpics/components/-/components-0.31.0.tgz#de092e6b33383e2594ab0cfc8e5cec00df227a1a"
+  integrity sha512-+XnOixLLcJox1E7vwdVTQjHnSPCSR8l68B+AOt3rvt7966JM+Koc4vJQcJpINfoUtWGtF8ubuV1FY7RqZzFbyQ==
 
 "@types/babel__core@^7.20.5":
   version "7.20.5"
