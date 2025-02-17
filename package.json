@@ -43,7 +43,7 @@
     "vite": "6.0.9"
   },
   "dependencies": {
-    "@twicpics/components": "0.31.3",
+    "@twicpics/components": "0.32.0",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "react-router-dom": "7.1.3",
